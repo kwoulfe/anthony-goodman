@@ -1,0 +1,498 @@
+@font-face {
+  font-family: 'erika_ormigregular';
+  src: url('fontKit/erika_ormig-webfont.woff2') format('woff2'),
+       url('fontKit/erika_ormig-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+  }
+
+a {
+    color: rgb(197, 78, 75);
+}
+
+a:hover, a:active, a:focus, a:visited {
+    color: rgb(197, 78, 75);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+p {
+  color: white;
+  font-family: 'Pavanam', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.banner {
+  text-align: center;
+}
+
+.header {
+  background-image: url('images/duo-one.jpg');
+  /* background-image: url('images/duo.JPG'); */
+  /* background-image: url('images/duo-flip2.JPG'); */
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 70%;
+  /* padding-top: 52%; */
+  /* background-attachment: fixed; */
+  background-position: center top;
+  /* position: fixed; */
+  top:0;
+  left:0;
+}
+
+.social {
+  text-align: center;
+  font-size: 5em;
+}
+
+.social i {
+  padding: 5px 20px 5px 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social {
+    font-size: 4em;
+  }
+  .social i {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .social {
+    font-size: 3em;
+  }
+  /* .header {
+    background-image: url('images/duo.JPG');
+    padding-top: 100%
+  } */
+}
+
+#title {
+  padding-top: 80px;
+}
+
+.album {
+  /* margin-top: 15px; */
+  text-align: center;
+  font-size: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .album {
+    font-size: 2em;
+  }
+  #title {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .album {
+    font-size: 1.25em;
+  }
+  #title {
+    padding-top: 45px;
+  }
+  .listen {
+    text-align: center;
+    width: 50%;
+  }
+  .social i {
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .social i {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .album {
+    font-size: 1em;
+  }
+  #title {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-auto {
+    padding: 50px 0 0 0;
+  }
+}
+
+.main {
+    font-size: 3em;
+    margin: 100px 0 50px 0;
+    text-align: center;
+}
+
+.youtube {
+  font-size: 3em;
+  margin: 50px 0 50px 0;
+  text-align: center;
+  padding: 15px;
+}
+
+.youtube-text {
+  color: white;
+  font-family: 'Pavanam', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+      font-size: 2em;
+      margin: 50px 0 30px 0;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .main {
+      font-size: 1.75em;
+      margin: 50px 0 30px 0;
+    }
+    .youtube {
+      font-size: 2em;
+      margin: 25px 0 25px 0;
+      text-align: center;
+      padding: 15px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .main {
+      font-size: 1.25em;
+      margin: 50px 0 30px 0;
+    }
+  }
+
+  .video {
+    padding: 100px 10px 20px 10px
+  }
+
+  @media screen and (max-width: 768px) {
+    .video {
+      padding: 50px 10px 20px 10px
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .video {
+      padding: 40px 10px 30px 10px
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .video {
+      padding: 30px 10px 0 10px
+    }
+  }
+
+  #video {
+    /* overflow: hidden; */
+    padding-bottom: 56.25%;
+    position: relative;
+    /* height: 0; */
+  }
+  
+  #video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .footer {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3em;
+  }
+
+  .footer img {
+    padding: 5px 0 5px 0;
+    max-width: 120px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer i {
+      padding: 0 5px 0 5px;
+    }
+  }
+
+  /* Gallery Page */
+
+  .back-button {
+    color: white;
+    margin-top: .5em;
+    font-size: 1.75em;
+  }
+
+  .galleryContent {
+    position: relative;
+    /* top: 1em; */
+  }
+
+  .gallery {
+    padding-top: 50px;
+  }
+
+  .photo {
+    padding-bottom: 25px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .gallery {
+      padding-top: 0;
+    }
+    .photo {
+      padding: 20px 15px 0 15px;
+    }
+  }
+
+  /* Contact Page */
+
+  .mainContent {
+    position: relative;
+    top: 7em;
+  }
+
+  .contact {
+    background-image: url('images/evanneSteve.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* width: 100%;
+    height: 0;
+    padding-top: 100%;
+    background-position: center top;
+    top:0;
+    left:0; */
+  }
+
+  form {
+    text-align: center;
+  }
+
+  .form-control {
+    border-radius: 0;
+    font-family: 'erika_ormigregular';
+    background-clip: unset;
+  }
+
+  .input-group-text {
+    border-radius: 0;
+  }
+
+  input[type='text'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  input[type='email'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  input[type='tel'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .hpot {
+    display: none;
+  }
+
+  #send-button {
+    background-color: white;
+    color: rgba(0, 8, 46, 0.699);
+    border: 0;
+    border-radius: 0;
+    font-family: 'erika_ormigregular';
+  }
+
+  /* Lyrics Page */
+
+  .lyrics {
+    text-align: center;
+    font-family: 'erika_ormigregular';
+    padding: 15px 0 15px 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    h4 {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    h4 {
+      font-size: .75rem;
+    }
+  }
+
+  /* ---------------------------------------------
+    SIDE MENU ADDITION
+  ----------------------------------------------- */
+
+  .navbar {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    /* background: #fff; */
+    border: none;
+    border-radius: 0;
+    /* margin-bottom: 40px; */
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  /* background: #7386D5;
+  color: #fff; */
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: 0px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: .9em;
+    display: block;
+    font-family: 'erika_ormigregular';
+    color: white;
+    /* color: rgb(197, 78, 75); */
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    /* background: #6d7fcc; */
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 75px);
+    /* padding: 40px; */
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+#content.active {
+    width: 87%;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:visited,
+.btn-info:active {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: transparent;
+    box-shadow: none;
+}
+
+#sidebarCollapse,
+#sidebarCollapse:hover,
+#sidebarCollapse:focus,
+#sidebarCollapse:visited,
+#sidebarCollapse:active {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: transparent;
+    box-shadow: none;
+}
+
+.btn:focus,
+.btn:active,
+.btn:visited {
+    outline: none !important;
+    box-shadow: none;
+ }
+ 
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 10000px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 100px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145311043-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145311043-2');
+    </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="css/images/stove.jpg">
+
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <script src="https://kit.fontawesome.com/2489288bd2.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ewert|Londrina+Shadow&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Effie Zilch and the Houseband | Contact</title>
+    <meta name="description" content="Contact page using Formspree to directly send email to Effie Zilch and the Houseband">
+</head>
+
+<body class="contact">
+
+    <div class="wrapper">
+        <nav id="sidebar">
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="https://smarturl.it/effiezilchyoutube" target="_blank">Watch</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/effiezilch/?hl=en" target="_blank">Look</a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/3XeGZuuKfArGWFUILeYEum?si=hrDKv1ZXSHSOGun3rOT3yA" target="_blank">Listen</a>
+                </li>
+                <li>
+                    <a href="about">About</a>
+                </li>
+                <li>
+                    <a href="lyrics" target="_blank">Lyrics</a>
+                </li>
+                <li>
+                    <a href="gallery">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="content">
+
+            <div class="row no-gutters banner">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-align-left"></i>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <section class="mainContent" style="margin-bottom:25px">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 listen">
+                            <img class="img-fluid" id="title" src="css/images/contactClear.png" alt="contact">
+                        </div>
+                    </div>
+                </div>
+
+                </br>
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-6">
+                            <!-- replace with your endoint URL -->
+                            <form action="https://formspree.io/effiezilchandthehouseband@gmail.com" method="POST">
+                                <div class="hpot">
+                                    <label>Leave this field empty:
+                                        <input name="_gotcha">
+                                    </label>
+                                </div>
+
+                                <br>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text bg-white">
+                                                <i class="fas fa-user"></i>&nbsp</span>
+                                        </div>
+                                        <input name="name" type="text" placeholder="Name" class="form-control border-left-0" required />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-white">
+                                                        <i class="fas fa-envelope"></i>
+                                                    </span>
+                                                </div>
+                                                <input name="email" type="email" placeholder="Email" class="form-control border-left-0" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text bg-white">
+                                                        <i class="fas fa-phone"></i>
+                                                    </span>
+                                                </div>
+                                                <input name="phone" type="tel" placeholder="Phone" class="form-control border-left-0" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="message" rows="5" placeholder="Enter message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn" id="send-button">
+                                    <i class="fa fa-paper-plane"></i>
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+
+</html>
